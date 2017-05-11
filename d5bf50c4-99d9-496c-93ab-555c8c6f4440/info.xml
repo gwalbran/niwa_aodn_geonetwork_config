@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info version="1.1">
+  <general>
+    <createDate>2017-05-11T00:39:06</createDate>
+    <changeDate>2017-05-11T02:06:20</changeDate>
+    <schema>iso19139.mcp-2.0</schema>
+    <isTemplate>false</isTemplate>
+    <localId>8</localId>
+    <format>full</format>
+    <rating>0</rating>
+    <popularity>6</popularity>
+    <uuid>d5bf50c4-99d9-496c-93ab-555c8c6f4440</uuid>
+    <siteId>0b2a8399-bc06-4507-9abb-137fa28a0738</siteId>
+    <siteName>NIWA AODN</siteName>
+  </general>
+  <categories />
+  <privileges>
+    <group name="all">
+      <operation name="featured" />
+      <operation name="dynamic" />
+      <operation name="download" />
+      <operation name="view" />
+    </group>
+    <group name="sample" groupOwner="true">
+      <operation name="notify" />
+      <operation name="editing" />
+      <operation name="featured" />
+      <operation name="dynamic" />
+      <operation name="download" />
+      <operation name="view" />
+    </group>
+  </privileges>
+  <public />
+  <private />
+</info>
+
