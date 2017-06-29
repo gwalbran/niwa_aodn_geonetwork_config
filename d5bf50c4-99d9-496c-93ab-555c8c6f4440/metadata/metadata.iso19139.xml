@@ -394,7 +394,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://aodn2.niwa.co.nz/geonetwork/srv/en/metadata.show?uuid=d5bf50c4-99d9-496c-93ab-555c8c6f4440</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geonetwork/srv/en/metadata.show?uuid=d5bf50c4-99d9-496c-93ab-555c8c6f4440</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>WWW:LINK-1.0-http--metadata-URL</gco:CharacterString>
@@ -407,13 +407,13 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://aodn2.niwa.co.nz/geoserver/aodn/wms</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geoserver/nzodn/wms</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
               </gmd:protocol>
               <gmd:name>
-                <gco:CharacterString>aodn:physical_oceanographic_map</gco:CharacterString>
+                <gco:CharacterString>nzodn:physical_oceanographic_map</gco:CharacterString>
               </gmd:name>
               <gmd:description>
                 <gco:CharacterString>NIWA physical oceanography CTD data</gco:CharacterString>
@@ -423,13 +423,13 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://aodn2.niwa.co.nz/geoserver/aodn/ows</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geoserver/nzodn/ows</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>OGC:WFS-1.0.0-http-get-capabilities</gco:CharacterString>
               </gmd:protocol>
               <gmd:name>
-                <gco:CharacterString>aodn:physical_oceanographic_data</gco:CharacterString>
+                <gco:CharacterString>nzodn:physical_oceanographic_data</gco:CharacterString>
               </gmd:name>
               <gmd:description>
                 <gco:CharacterString>NIWA physical oceanography CTD data</gco:CharacterString>
@@ -439,7 +439,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://aodn2.niwa.co.nz/geoserver/ows?service=WFS&amp;request=GetFeature&amp;typeName=aodn:physical_oceanographic_map&amp;propertyName=url&amp;outputFormat=csv</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geoserver/ows?service=WFS&amp;request=GetFeature&amp;typeName=nzodn:physical_oceanographic_map&amp;propertyName=url&amp;outputFormat=csv</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>AODN:FILE-list</gco:CharacterString>

@@ -391,7 +391,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://aodn2.niwa.co.nz/geonetwork/srv/en/metadata.show?uuid=a6abe725-39a4-41c2-a653-4e43193d6558</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geonetwork/srv/en/metadata.show?uuid=a6abe725-39a4-41c2-a653-4e43193d6558</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>WWW:LINK-1.0-http--metadata-URL</gco:CharacterString>
@@ -404,13 +404,13 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://aodn2.niwa.co.nz/geoserver/aodn/wms</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geoserver/nzodn/wms</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
               </gmd:protocol>
               <gmd:name>
-                <gco:CharacterString>aodn:mooring_map</gco:CharacterString>
+                <gco:CharacterString>nzodn:mooring_map</gco:CharacterString>
               </gmd:name>
               <gmd:description>
                 <gco:CharacterString>NIWA moorings data</gco:CharacterString>
@@ -420,13 +420,13 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://aodn2.niwa.co.nz/geoserver/aodn/ows</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geoserver/nzodn/ows</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>OGC:WFS-1.0.0-http-get-capabilities</gco:CharacterString>
               </gmd:protocol>
               <gmd:name>
-                <gco:CharacterString>aodn:mooring_data</gco:CharacterString>
+                <gco:CharacterString>nzodn:mooring_data</gco:CharacterString>
               </gmd:name>
               <gmd:description>
                 <gco:CharacterString>NIWA moorings data</gco:CharacterString>
@@ -436,7 +436,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://aodn2.niwa.co.nz/geoserver/ows?service=WFS&amp;request=GetFeature&amp;typeName=aodn:mooring_map&amp;propertyName=url&amp;outputFormat=csv</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geoserver/ows?service=WFS&amp;request=GetFeature&amp;typeName=nzodn:mooring_map&amp;propertyName=url&amp;outputFormat=csv</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>AODN:FILE-list</gco:CharacterString>
