@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <info version="1.1">
   <general>
-    <createDate>2017-05-11T00:39:16</createDate>
-    <changeDate>2017-08-07T03:54:20</changeDate>
+    <createDate>2017-08-11T04:05:09</createDate>
+    <changeDate>2017-08-14T01:02:50</changeDate>
     <schema>iso19139.mcp-2.0</schema>
     <isTemplate>false</isTemplate>
-    <localId>9</localId>
+    <localId>22</localId>
     <format>full</format>
     <rating>0</rating>
-    <popularity>26</popularity>
-    <uuid>015b131d-2303-4ee5-9006-94625fbb4a85</uuid>
+    <popularity>33</popularity>
+    <uuid>6478dfd6-efa7-47e4-a7ec-ee4fac39341f</uuid>
     <siteId>0b2a8399-bc06-4507-9abb-137fa28a0738</siteId>
     <siteName>NZODN</siteName>
   </general>

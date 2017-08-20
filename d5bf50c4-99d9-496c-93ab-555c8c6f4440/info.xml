@@ -8,26 +8,18 @@
     <localId>8</localId>
     <format>full</format>
     <rating>0</rating>
-    <popularity>6</popularity>
+    <popularity>19</popularity>
     <uuid>d5bf50c4-99d9-496c-93ab-555c8c6f4440</uuid>
     <siteId>0b2a8399-bc06-4507-9abb-137fa28a0738</siteId>
-    <siteName>NIWA AODN</siteName>
+    <siteName>NZODN</siteName>
   </general>
   <categories />
   <privileges>
     <group name="all">
-      <operation name="featured" />
-      <operation name="dynamic" />
-      <operation name="download" />
       <operation name="view" />
-    </group>
-    <group name="sample" groupOwner="true">
-      <operation name="notify" />
-      <operation name="editing" />
-      <operation name="featured" />
-      <operation name="dynamic" />
       <operation name="download" />
-      <operation name="view" />
+      <operation name="dynamic" />
+      <operation name="featured" />
     </group>
   </privileges>
   <public />

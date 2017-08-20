@@ -2,7 +2,7 @@
 
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>d5bf50c4-99d9-496c-93ab-555c8c6f4440</gco:CharacterString>
+    <gco:CharacterString>6478dfd6-efa7-47e4-a7ec-ee4fac39341f</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gco:CharacterString>eng</gco:CharacterString>
@@ -10,23 +10,60 @@
   <gmd:characterSet>
     <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode">utf8</gmd:MD_CharacterSetCode>
   </gmd:characterSet>
+  <gmd:parentIdentifier gco:nilReason="missing">
+    <gco:CharacterString />
+  </gmd:parentIdentifier>
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
   </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName gco:nilReason="missing">
+    <gco:CharacterString />
+  </gmd:hierarchyLevelName>
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
+      <gmd:individualName gco:nilReason="missing">
+        <gco:CharacterString />
+      </gmd:individualName>
       <gmd:organisationName>
         <gco:CharacterString>National Institute of Water and Atmospheric Research (NIWA)</gco:CharacterString>
       </gmd:organisationName>
+      <gmd:positionName gco:nilReason="missing">
+        <gco:CharacterString />
+      </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>+64 9 375 2050</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>+64 7 856 0151</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
           <gmd:address>
             <gmd:CI_Address>
-              <gmd:country>
-                <gco:CharacterString>New Zealand</gco:CharacterString>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Private Bag 99940</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Newmarket</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Auckland</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>1149</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country gco:nilReason="missing">
+                <gco:CharacterString />
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>marineGIS@niwa.co.nz</gco:CharacterString>
+                <gco:CharacterString>enquiries@niwa.co.nz</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -44,9 +81,6 @@
               <gmd:description>
                 <gco:CharacterString>Website of the National Institute of Water and Atmospheric Research (NIWA)</gco:CharacterString>
               </gmd:description>
-              <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
-              </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onlineResource>
           <gmd:hoursOfService>
@@ -60,12 +94,12 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-05-11T02:06:20</gco:DateTime>
+    <gco:DateTime>2017-08-14T01:02:50</gco:DateTime>
   </gmd:dateStamp>
-  <gmd:metadataStandardName xmlns:mcp="http://schemas.aodn.org.au/mcp-2.0" xmlns:geonet="http://www.fao.org/geonetwork">
+  <gmd:metadataStandardName xmlns:mcp="http://schemas.aodn.org.au/mcp-2.0" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
     <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
   </gmd:metadataStandardName>
-  <gmd:metadataStandardVersion xmlns:mcp="http://schemas.aodn.org.au/mcp-2.0" xmlns:geonet="http://www.fao.org/geonetwork">
+  <gmd:metadataStandardVersion xmlns:mcp="http://schemas.aodn.org.au/mcp-2.0" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
     <gco:CharacterString>1.0</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:identificationInfo>
@@ -73,48 +107,82 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>NIWA Physical Oceanographic CTD data</gco:CharacterString>
+            <gco:CharacterString>NIWA - SOOP Underway CO2 Measurements around New Zealand</gco:CharacterString>
           </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>Ship underway ocean carbon data</gco:CharacterString>
+          </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>2014-05-13</gco:Date>
+                <gco:DateTime>2013-01-01</gco:DateTime>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
-          <gmd:date>
-            <gmd:CI_Date>
-              <gmd:date>
-                <gco:Date>2014-05-13</gco:Date>
-              </gmd:date>
-              <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-              </gmd:dateType>
-            </gmd:CI_Date>
-          </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
+              <gmd:individualName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:individualName>
               <gmd:organisationName>
                 <gco:CharacterString>National Institute of Water and Atmospheric Research (NIWA)</gco:CharacterString>
               </gmd:organisationName>
+              <gmd:positionName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>+64 9 375 2050</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>+64 7 856 0151</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Private Bag 99940</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Newmarket</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Auckland</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea gco:nilReason="missing">
+                        <gco:CharacterString />
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>1149</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>New Zelanad</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>enquiries@niwa.co.nz</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
                       <gmd:linkage>
-                        <gmd:URL>http://www.niwa.co.nz</gmd:URL>
+                        <gmd:URL>http://www.niwa.co.nz/</gmd:URL>
                       </gmd:linkage>
                       <gmd:protocol>
                         <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
                       </gmd:protocol>
-                      <gmd:name>
-                        <gco:CharacterString>Website of the National Institute of Water and Atmospheric Research (NIWA)</gco:CharacterString>
-                      </gmd:name>
-                      <gmd:description gco:nilReason="missing">
+                      <gmd:name gco:nilReason="missing">
                         <gco:CharacterString />
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Website of the National Institute of Water and Atmospheric Research (NIWA)</gco:CharacterString>
                       </gmd:description>
                     </gmd:CI_OnlineResource>
                   </gmd:onlineResource>
@@ -134,13 +202,12 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>This data collection contains physical oceanographic observations from CTD probes deployed by the National Institute of Water and Atmospheric Research (NIWA) and its predecessor, the New Zealand Oceanographic Institute. A variety of instruments where used in this dataset, including: Sea-Bird SBE 911Plus CTD</gco:CharacterString>
+        <gco:CharacterString>This dataset is part of the IMOS  Underway CO2 Measurements group. This group is a research and data collection project working within the IMOS Ship of Opportunity Multi-Disciplinary Underway Network sub-facility. The CO2 group sample critical regions of the Southern Ocean, Australian and the New Zealand shelf waters, which have a major impact on CO2 uptake by the ocean. These are regions where biogeochemical cycling is predicted to be particularly sensitive to a changing climate. The pCO2 Underway System measures the fugacity of carbon dioxide (fCO2) along with other variables such as sea surface salinity (SSS) and sea surface temperature (SST) using an automated system.
+
+The RV Tangaroa provides data on surface ocean CO2 for the  oceans adjacent to New Zealand.</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
-        <gco:CharacterString>Regional and coastal oceanographic datasets provided by the National Institute of Water and Atmospheric Research, New Zealand.</gco:CharacterString>
-      </gmd:credit>
-      <gmd:credit gco:nilReason="missing">
-        <gco:CharacterString />
+        <gco:CharacterString>National Institute of Water and Atmosphere (NIWA)</gco:CharacterString>
       </gmd:credit>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -148,169 +215,84 @@
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName>
-            <gco:CharacterString>Kevin Mackay</gco:CharacterString>
+            <gco:CharacterString>Dr. Kim Currie</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
             <gco:CharacterString>National Institute of Water and Atmospheric Research (NIWA)</gco:CharacterString>
           </gmd:organisationName>
+          <gmd:positionName gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:positionName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
               <gmd:phone>
                 <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>+64 4 386 0300</gco:CharacterString>
+                  <gmd:voice gco:nilReason="missing">
+                    <gco:CharacterString />
                   </gmd:voice>
+                  <gmd:facsimile gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:facsimile>
                 </gmd:CI_Telephone>
               </gmd:phone>
               <gmd:address>
                 <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>NIWA</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Department of Chemistry</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>University of Otago</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>P.O. Box 56</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Dunedin</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:administrativeArea>
+                  <gmd:postalCode gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>New Zealand</gco:CharacterString>
+                  </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>marineGIS@niwa.co.nz</gco:CharacterString>
+                    <gco:CharacterString>k.currie@niwa.co.nz</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
             </gmd:CI_Contact>
           </gmd:contactInfo>
           <gmd:role>
-            <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
-      <gmd:resourceMaintenance>
-        <gmd:MD_MaintenanceInformation>
-          <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="quarterly">quarterly</gmd:MD_MaintenanceFrequencyCode>
-          </gmd:maintenanceAndUpdateFrequency>
-        </gmd:MD_MaintenanceInformation>
-      </gmd:resourceMaintenance>
-      <gmd:graphicOverview>
-        <gmd:MD_BrowseGraphic>
-          <gmd:fileName>
-            <gco:CharacterString>NRS_thumb_s.png</gco:CharacterString>
-          </gmd:fileName>
-          <gmd:fileDescription>
-            <gco:CharacterString>thumbnail</gco:CharacterString>
-          </gmd:fileDescription>
-          <gmd:fileType>
-            <gco:CharacterString>png</gco:CharacterString>
-          </gmd:fileType>
-        </gmd:MD_BrowseGraphic>
-      </gmd:graphicOverview>
-      <gmd:graphicOverview>
-        <gmd:MD_BrowseGraphic>
-          <gmd:fileName>
-            <gco:CharacterString>NRS_thumb.png</gco:CharacterString>
-          </gmd:fileName>
-          <gmd:fileDescription>
-            <gco:CharacterString>large_thumbnail</gco:CharacterString>
-          </gmd:fileDescription>
-          <gmd:fileType>
-            <gco:CharacterString>png</gco:CharacterString>
-          </gmd:fileType>
-        </gmd:MD_BrowseGraphic>
-      </gmd:graphicOverview>
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>Oceans | Salinity/density | Conductivity</gco:CharacterString>
+            <gco:CharacterString>Oceans | Ocean Temperature | Sea Surface Temperature, Atmosphere | Atmospheric Pressure | Atmospheric Pressure, Oceans | Ocean Winds | Surface Winds, Oceans | Salinity/density | Salinity</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>Oceans | Ocean Temperature | Water Temperature</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>Oceans | Salinity/density | Salinity</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>Oceans | Ocean Optics | Fluorescence</gco:CharacterString>
+            <gco:CharacterString>IMOS Platform | ZMFR | Tangaroa, Ocean Biogeochemistry, pCO2, Partial Pressure, Fugacity</gco:CharacterString>
           </gmd:keyword>
           <gmd:type>
             <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
           </gmd:type>
-          <gmd:thesaurusName>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>NASA/Global Change Master Directory Earth Science Keywords Version 5.3.8</gco:CharacterString>
-              </gmd:title>
-              <gmd:alternateTitle>
-                <gco:CharacterString>GCMD</gco:CharacterString>
-              </gmd:alternateTitle>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:Date>2006-01-01</gco:Date>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-              <gmd:citedResponsibleParty>
-                <gmd:CI_ResponsibleParty>
-                  <gmd:organisationName>
-                    <gco:CharacterString>National Aeronautics and Space Administration (NASA)</gco:CharacterString>
-                  </gmd:organisationName>
-                  <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
-                  </gmd:role>
-                </gmd:CI_ResponsibleParty>
-              </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-          </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>Profilers/Sounders | CTD (Conductivity-Temperature-Depth Profilers)</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword gco:nilReason="missing">
-            <gco:CharacterString />
-          </gmd:keyword>
-          <gmd:type>
-            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="equipment">equipment</gmd:MD_KeywordTypeCode>
-          </gmd:type>
-          <gmd:thesaurusName>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>Marine Community Profile of ISO19115 v1.4 Collection Methods Vocabulary (Annex C.1.3)</gco:CharacterString>
-              </gmd:title>
-              <gmd:alternateTitle>
-                <gco:CharacterString>MCP</gco:CharacterString>
-              </gmd:alternateTitle>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:Date>2008-10-30</gco:Date>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-              <gmd:citedResponsibleParty>
-                <gmd:CI_ResponsibleParty>
-                  <gmd:organisationName>
-                    <gco:CharacterString>Australian Ocean Data Centre Joint Facility (AODCJF)</gco:CharacterString>
-                  </gmd:organisationName>
-                  <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
-                  </gmd:role>
-                </gmd:CI_ResponsibleParty>
-              </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-          </gmd:thesaurusName>
-        </gmd:MD_Keywords>
-      </gmd:descriptiveKeywords>
-      <gmd:descriptiveKeywords>
-        <gmd:MD_Keywords>
-          <gmd:keyword>
-            <gco:CharacterString>Global / Oceans | Southern Ocean</gco:CharacterString>
+            <gco:CharacterString>Global / Oceans | Pacific Ocean, Regional Seas | Tasman Sea</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>Global / Oceans | Pacific Ocean</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>Regional Seas | Tasman Sea</gco:CharacterString>
+            <gco:CharacterString>Countries | New Zealand</gco:CharacterString>
           </gmd:keyword>
           <gmd:type>
             <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
@@ -318,7 +300,10 @@
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
       <gmd:resourceConstraints>
-        <gmd:MD_Constraints xmlns:mcp_1="http://bluenet3.antcrc.utas.edu.au/mcp" mcp_1:commonsType="Creative Commons" />
+        <gmd:MD_Constraints />
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints xmlns:mcp="http://schemas.aodn.org.au/mcp-2.0" mcp:commonsType="Creative Commons" />
       </gmd:resourceConstraints>
       <gmd:resourceConstraints>
         <gmd:MD_Constraints>
@@ -327,6 +312,9 @@
           </gmd:useLimitation>
         </gmd:MD_Constraints>
       </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="" />
+      </gmd:spatialRepresentationType>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -341,16 +329,16 @@
           <gmd:geographicElement>
             <gmd:EX_GeographicBoundingBox>
               <gmd:westBoundLongitude>
-                <gco:Decimal>139</gco:Decimal>
+                <gco:Decimal>157</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
                 <gco:Decimal>180</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>-80</gco:Decimal>
+                <gco:Decimal>-57.00000000000001</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
-                <gco:Decimal>-29.999999999999996</gco:Decimal>
+                <gco:Decimal>-24.000000000000004</gco:Decimal>
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
@@ -360,18 +348,33 @@
                 <gco:Decimal>-180</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
-                <gco:Decimal>-170</gco:Decimal>
+                <gco:Decimal>-167</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>-80</gco:Decimal>
+                <gco:Decimal>-57.00000000000001</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
-                <gco:Decimal>-29.999999999999996</gco:Decimal>
+                <gco:Decimal>-24.000000000000004</gco:Decimal>
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
           <gmd:temporalElement>
-            <gmd:EX_TemporalExtent />
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="N10315">
+                  <gml:begin>
+                    <gml:TimeInstant gml:id="N1031B">
+                      <gml:timePosition>2013-01-01</gml:timePosition>
+                    </gml:TimeInstant>
+                  </gml:begin>
+                  <gml:end>
+                    <gml:TimeInstant gml:id="N10326">
+                      <gml:timePosition />
+                    </gml:TimeInstant>
+                  </gml:end>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
         </gmd:EX_Extent>
       </gmd:extent>
@@ -381,11 +384,11 @@
     <gmd:MD_Distribution>
       <gmd:distributionFormat>
         <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>Text - NIWA .CSV format</gco:CharacterString>
+          <gmd:name gco:nilReason="missing">
+            <gco:CharacterString />
           </gmd:name>
-          <gmd:version>
-            <gco:CharacterString>1</gco:CharacterString>
+          <gmd:version gco:nilReason="missing">
+            <gco:CharacterString />
           </gmd:version>
         </gmd:MD_Format>
       </gmd:distributionFormat>
@@ -394,7 +397,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://nzodn.nz/geonetwork/srv/en/metadata.show?uuid=d5bf50c4-99d9-496c-93ab-555c8c6f4440</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geonetwork/srv/en/metadata.show?uuid=6478dfd6-efa7-47e4-a7ec-ee4fac39341f</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>WWW:LINK-1.0-http--metadata-URL</gco:CharacterString>
@@ -407,16 +410,32 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
+                <gmd:URL>http://nzodn.nz/geonetwork/srv/en/file.disclaimer?uuid=6478dfd6-efa7-47e4-a7ec-ee4fac39341f&amp;fname=&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--downloaddata</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="" />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Short description of the data</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
                 <gmd:URL>http://nzodn.nz/geoserver/nzodn/wms</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
               </gmd:protocol>
               <gmd:name>
-                <gco:CharacterString>nzodn:physical_oceanographic_map</gco:CharacterString>
+                <gco:CharacterString>nzodn:co2_map</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>NIWA physical oceanography CTD data</gco:CharacterString>
+                <gco:CharacterString>Map showing pCO2</gco:CharacterString>
               </gmd:description>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
@@ -429,17 +448,17 @@
                 <gco:CharacterString>OGC:WFS-1.0.0-http-get-capabilities</gco:CharacterString>
               </gmd:protocol>
               <gmd:name>
-                <gco:CharacterString>nzodn:physical_oceanographic_data</gco:CharacterString>
+                <gco:CharacterString>nzodn:co2_data</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>NIWA physical oceanography CTD data</gco:CharacterString>
+                <gco:CharacterString>pCO2 data</gco:CharacterString>
               </gmd:description>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://nzodn.nz/geoserver/ows?service=WFS&amp;request=GetFeature&amp;typeName=nzodn:physical_oceanographic_map&amp;propertyName=url&amp;outputFormat=csv</gmd:URL>
+                <gmd:URL>http://nzodn.nz/geoserver/ows?service=WFS&amp;request=GetFeature&amp;typeName=nzodn:co2_map&amp;propertyName=url&amp;outputFormat=csv</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>AODN:FILE-list</gco:CharacterString>
@@ -456,4 +475,22 @@
       </gmd:transferOptions>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
 </gmd:MD_Metadata>

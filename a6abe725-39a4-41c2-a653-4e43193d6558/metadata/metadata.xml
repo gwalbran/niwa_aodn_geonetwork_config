@@ -26,7 +26,7 @@
                 <gco:CharacterString>New Zealand</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>moorings@niwa.co.nz</gco:CharacterString>
+                <gco:CharacterString>enquiries@niwa.co.nz</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -60,7 +60,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd">
-    <gco:DateTime>2017-05-11T03:54:24</gco:DateTime>
+    <gco:DateTime>2017-08-07T03:20:48</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd">
     <gco:CharacterString>Australian Marine Community Profile of ISO 19115:2005/19139</gco:CharacterString>
@@ -73,7 +73,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>NIWA - Moored instrument data</gco:CharacterString>
+            <gco:CharacterString>NIWA - Moored instrument data from around New Zealand</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -102,6 +102,28 @@
               </gmd:organisationName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Private Bag 14-901</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Kilbirnie</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Wellington</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>6241</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>New Zealand</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>moorings@niwa.co.nz</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
                       <gmd:linkage>
@@ -129,12 +151,12 @@
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
           <gmd:otherCitationDetails>
-            <gco:CharacterString>The citation in a list of references is: "NIWA [year-of-data-downloaded], [Title], [data-access-url], accessed [date-of-access]"</gco:CharacterString>
+            <gco:CharacterString>The citation in a list of references is: "NIWA [year-of-data-download], [Title], [data-access-url], accessed [date-of-access]"</gco:CharacterString>
           </gmd:otherCitationDetails>
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>This data collection contains observations from moored instruments deployed by the National Institute of Water and Atmospheric Research (NIWA). Data was sourced from a range of instrumentation over many decades, with primary measured variables including temperature, pressure, salinity, and current speed/direction. More recently, other chemical and biological variables may be found within data records.</gco:CharacterString>
+        <gco:CharacterString>This data collection contains observations from moored instruments in New Zealand waters deployed by the National Institute of Water and Atmospheric Research (NIWA). Data was sourced from a range of instrumentation over many decades, with primary measured variables including temperature, pressure, salinity, and current speed/direction. More recently, other chemical and biological variables may be found within data records.</gco:CharacterString>
       </gmd:abstract>
       <gmd:credit>
         <gco:CharacterString>Regional and coastal oceanographic datasets provided by the National Institute of Water and Atmospheric Research, New Zealand.</gco:CharacterString>
@@ -312,6 +334,9 @@
           <gmd:keyword>
             <gco:CharacterString>Regional Seas | Tasman Sea</gco:CharacterString>
           </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Countries | New Zealand</gco:CharacterString>
+          </gmd:keyword>
           <gmd:type>
             <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
           </gmd:type>
@@ -320,16 +345,16 @@
       <gmd:resourceConstraints>
         <mcp:MD_Commons xmlns:mcp_1="http://bluenet3.antcrc.utas.edu.au/mcp" mcp_1:commonsType="Creative Commons" gco:isoType="gmd:MD_Constraints">
           <mcp:jurisdictionLink>
-            <gmd:URL>http://creativecommons.org/international/au/</gmd:URL>
+            <gmd:URL>http://creativecommons.org.nz/</gmd:URL>
           </mcp:jurisdictionLink>
           <mcp:licenseLink>
-            <gmd:URL>http://creativecommons.org/licenses/by/2.5/au/</gmd:URL>
+            <gmd:URL>https://creativecommons.org/licenses/by/3.0/nz/</gmd:URL>
           </mcp:licenseLink>
           <mcp:imageLink>
-            <gmd:URL>http://i.creativecommons.org/l/by/2.5/au/88x31.png</gmd:URL>
+            <gmd:URL>http://creativecommons.org.nz/wp-content/uploads/2012/05/by.png</gmd:URL>
           </mcp:imageLink>
           <mcp:licenseName>
-            <gco:CharacterString>Attribution 2.5 Australia</gco:CharacterString>
+            <gco:CharacterString>Attribution 3.0 New Zealand</gco:CharacterString>
           </mcp:licenseName>
           <mcp:attributionConstraints>
             <gco:CharacterString>The citation in a list of references is: "NIWA [year-of-data-download], [Title], [data-access-URL], accessed [date-of-access]."</gco:CharacterString>
@@ -731,9 +756,18 @@
               </mcp:parameterName>
               <mcp:parameterUnits>
                 <mcp:DP_Term>
+                  <mcp:term>
+                    <gco:CharacterString>Metres per second</gco:CharacterString>
+                  </mcp:term>
                   <mcp:type>
-                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="" />
+                    <mcp:DP_TypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
                   </mcp:type>
+                  <mcp:usedInDataset>
+                    <gco:Boolean>false</gco:Boolean>
+                  </mcp:usedInDataset>
+                  <mcp:vocabularyTermURL>
+                    <gmd:URL>http://vocab.nerc.ac.uk/collection/P06/current/UVAA</gmd:URL>
+                  </mcp:vocabularyTermURL>
                 </mcp:DP_Term>
               </mcp:parameterUnits>
               <mcp:parameterMinimumValue>
@@ -765,11 +799,11 @@
     <gmd:MD_Distribution>
       <gmd:distributionFormat>
         <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>Text - NIWA .DAT format</gco:CharacterString>
+          <gmd:name gco:nilReason="missing">
+            <gco:CharacterString />
           </gmd:name>
-          <gmd:version>
-            <gco:CharacterString>1</gco:CharacterString>
+          <gmd:version gco:nilReason="missing">
+            <gco:CharacterString />
           </gmd:version>
         </gmd:MD_Format>
       </gmd:distributionFormat>
@@ -816,7 +850,7 @@
                 <gco:CharacterString>nzodn:mooring_data</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>NIWA moorings data</gco:CharacterString>
+                <gco:CharacterString>This OGC WFS service returns filtered geographic information. The returned data is available in multiple formats including CSV.</gco:CharacterString>
               </gmd:description>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
@@ -841,6 +875,6 @@
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
   <mcp:revisionDate>
-    <gco:DateTime>2017-05-11T03:54:24</gco:DateTime>
+    <gco:DateTime>2017-08-07T03:20:48</gco:DateTime>
   </mcp:revisionDate>
 </mcp:MD_Metadata>
